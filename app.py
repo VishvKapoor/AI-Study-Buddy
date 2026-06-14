@@ -113,7 +113,7 @@ st.markdown('<div class="hero-sub">Explain topics · Summarize notes · Generate
 #API Key
 st.markdown('<hr class="section-divider">', unsafe_allow_html=True)
 
-API_KEY = "AIzaSyB46EPVM-Y4DJU30YLhBzC-jsnZksPo-Bw"
+API_KEY = st.secrets["GEMINI_API_KEY"]
 
 
 #Tabs
